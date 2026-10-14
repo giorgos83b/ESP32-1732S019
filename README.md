@@ -4,10 +4,6 @@ ESP32-1732S019 ARDUINO ESP32-S3, 1,9 zoll 170*320
 ![ESP32-1732S019](https://github.com/OttoMeister/ESP32-1732S019/assets/12480979/2e7e7fbe-8a32-4804-abf7-d8c90f59159e)
 
 ## General Information
-[Aliexpress 1](https://www.aliexpress.us/item/3256806186900969.html) , 
-[Aliexpress 2](https://www.aliexpress.us/item/3256806071867483.html) ,
-[Aliexpress 3](https://www.aliexpress.us/item/3256806436770867.html) <br>
-https://www.surenoo.com/products/23377371
 <br><br>
 Thanks to the efforts of these individuals and many others, programming on Suntown displays has become very easy. 
 <br><br>
@@ -17,7 +13,7 @@ https://github.com/lvgl/lv_port_esp32<br>
 https://github.com/platformio/platformio-core<br>
 https://github.com/witnessmenow/ESP32-Cheap-Yellow-Display<br>
 <br>
-Here, I used the ESP32-1732S019 to create a small demo project featuring WiFi, METAR (Meteorological Aerodrome Report) weather data, and NTP time. 
+Here, I used the ESP32-1732S019 to create a small demo project featuring motivational quotes that are alternating after a given time frame. 
 
 ## Install PlatformIO on Linux (no IDE)
 ```
@@ -36,7 +32,7 @@ pio settings set check_platformio_interval 9999
 ```
 ## Compile with PlatformIO on Linux
 ```
-git clone https://github.com/OttoMeister/ESP32-1732S019
+git clone https://github.com/giorgos83b/ESP32-1732S019
 cd ESP32-1732S019/
 platformio run 
 platformio run --upload-port  /dev/ttyUSB0 -t upload
@@ -88,6 +84,3 @@ platformio run --upload-port  COM1 -t upload
 platformio run --monitor-port COM1 -t monitor
 ```
 
-## License
-This project is released under the WTFPL LICENSE.
-<a href="http://www.wtfpl.net/"><img src="http://www.wtfpl.net/wp-content/uploads/2012/12/wtfpl-badge-4.png" width="80" height="15" alt="WTFPL" /></a>
