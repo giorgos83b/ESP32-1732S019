@@ -1,7 +1,7 @@
 # PlatformIO ESP32-1732S019
 ESP32-1732S019 ARDUINO ESP32-S3, 1,9 zoll 170*320 
 
-![ESP32-1732S019](https://github.com/OttoMeister/ESP32-1732S019/assets/12480979/2e7e7fbe-8a32-4804-abf7-d8c90f59159e)
+![ESP32-1732S019](https://github.com/giorgos83b/ESP32-1732S019/blob/main/assets/1732S019.jpg)
 
 ## General Information
 <br><br>
